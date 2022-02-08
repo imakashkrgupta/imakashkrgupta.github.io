@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@300;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.wallpaper{
+    height: 88vh;
+    /*border: .1px solid grey;*/
+    background-image: url("windows11wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+}
+.taskbar{
+    height: 7vh;
+    background-color: rgba(220, 244, 255, 0.911);
+}
+.taskbar_subwrap{
+    width: 60vw;
+    /*border: .1px solid green;*/
+    height: inherit;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.taskbar_box1{
+    /*border: .1px solid purple;*/
+    display: flex;
+    align-items: center;
+}
+.taskbar_box2{
+    /*border: .1px solid purple;*/
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.taskbar_icon{
+    height:32px;
+    width: 32px;
+    /*margin-top: 2px;*/
+    padding: 5px;
+}
+.taskbar_icon:hover{
+    background-color: white;
+    border-radius: 2px;
+    padding: 5px;
+}
+.setting_link{
+    height: 16px;
+    /*margin: 0px 2.5px;*/
+}
+#setting_link1{
+    padding:5px 6px ;
+}
+.taskbar_box2 div{
+    text-align: right;
+    /*margin: 0px 2.5px;*/
+    padding:5px 6px ;
+}
+.taskbar_box2 div:hover{
+    background-color: white;
+    border-radius: 3px;
+}
+/*------------------------------------------------------------*/
+
+.dialog_box_home{
+    height: 80vh;
+    width: 560px;
+    /*border: 1px solid black;*/
+    margin: auto;
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px 30px;
+    background-color: #ffffffe8;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    display: none;
+}
+.search_bar{
+    height: 34px;
+    border-top: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-bottom: 3px solid #025fbd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    
+}
+.search_bar input{
+    height: 30px;
+    width: 470px;
+    outline: none;
+    border: none;
+}
+.dialog_box_search_icon{
+    height: 20px;
+}
+.home_text_write1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.home_text_write1 :nth-child(2){
+    color: black;
+    font-size: 12px;
+    border: .5px solid #dee2e6;
+    border-bottom: 2px solid #ced4da;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: white;
+}
+.applist1{
+    display: flex;
+}
+.app{
+    height: 90px;
+    width: 90px;
+    /*border: 1px solid grey;*/
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;*/
+    font-size: 12px;
+    text-align: center;
+    border-radius: 4px;
+}
+.app:hover{
+    background-color: white;
+}
+.home_app{
+    height: 40px;
+    margin-top: 12px;
+}
+.recommended{
+    /*border: 1px solid black;*/
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.recommended_file{
+    /*border: 1px solid green;*/
+    padding: 5px 0px;
+    height: 45px;
+    width: 245px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    margin: 5px;
+    border-radius: 4px;
+}
+.recommended_file:hover{
+    background-color: white;
+}
+.rec_pic{
+    height: 40px;
+    padding: 0px 10px;
+}
+.bottom{
+    /*border: 1px solid grey;*/
+    margin-top: 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.owner{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.owner:hover{
+    background-color: white;
+}
+.user_home{
+    padding: 7px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    height: 20px;
+    margin-right: 10px;
+}
+.switch_home{
+    height: 20px;
+    padding: 7px;
+    border-radius: 2px;
+}
+.switch_home:hover{
+    background-color: white;
+}
+#home_hide_id{
+   display: none;
+}
+
+/*---------------------------------------------------------------------------*/
+
+.dialog_box_search{
+    height: 80vh;
+    width: 650px;
+    /*border: 1px solid black;*/
+    margin: auto;
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px 30px;
+    background-color: #ffffffe8;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    display: none;
+}
+.nav_link{
+    margin: 30px 0px;
+}
+.nav_link a{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+}
+.nav_link a:hover{
+    color: black;
+    border-bottom: 2px solid #025fbd;
+}
+.box_search_apps{
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search_app{
+    border: 1px solid #dee2e6;
+    height: 90px;
+    width: 120px;
+    text-align: center;
+    font-size: 13px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.search_app:hover{
+    background-color: transparent;
+}
+.search_app_img{
+    height: 40px;
+    margin-top: 10px;
+}
+.recent_app{
+    font-size: 13px;
+    margin: 20px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px ;
+    border-radius: 3px;
+}
+.recent_app_img{
+    height: 34px;
+    margin-right: 10px;
+}
+.recent_app:hover{
+    background-color: white;
+}
+#search_hide_id{
+    display: none;
+}
+/*.attribution{
+    font-size: 12px;
+    margin-left: 20px;
+    color: grey;
+}*/
+.error{
+    height: 30vh;
+    width: 80%;
+    margin: auto;
+    color: white;
+    background-color: #025fbd;
+    display: none;
+    font-size: 25px;
+    display: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 50px 20px;
+}
+/*----------------------Media Quries----------------------------*/
+
+@media (max-height:690px){
+    .error{
+        display: block;
+    }
+    .main_section{
+        display: none;
+    }
+
+}
+@media (max-width:900px){
+    .error{
+        display: block;
+    }
+    .main_section{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
